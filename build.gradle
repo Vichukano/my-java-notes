@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group = 'ru.vichukano'
+version = '1.0.0'
+sourceCompatibility = '17'
+
+repositories {
+    mavenCentral()
+}
+
+compileJava.options.encoding = 'UTF-8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
