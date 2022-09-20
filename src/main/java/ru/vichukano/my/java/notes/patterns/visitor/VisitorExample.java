@@ -1,5 +1,10 @@
 package ru.vichukano.my.java.notes.patterns.visitor;
 
+import ru.vichukano.my.java.notes.patterns.visitor.operation.CashInOperation;
+import ru.vichukano.my.java.notes.patterns.visitor.operation.CheckBalanceOperation;
+import ru.vichukano.my.java.notes.patterns.visitor.operation.WithdrawalOperation;
+import ru.vichukano.my.java.notes.patterns.visitor.visitor.OperationVisitor;
+
 class VisitorExample {
 
     void show() {
